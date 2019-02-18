@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pw/inicio');
 });
 Route::post('insertar','pw_controller\micontrolador@insertar');
 Route::get('formulario','pw_controller\micontrolador@verform');
